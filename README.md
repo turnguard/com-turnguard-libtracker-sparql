@@ -9,6 +9,11 @@ com-turnguard-libtracker-sparql
 <a href="https://developer.gnome.org/libtracker-sparql/stable/" target="_blank">libtracker-sparql</a>.</li>
 </ul>
 </li>
+<li>requirements:
+<ul>
+<li>libtracker-sparql-1.0</li>
+</ul>
+</li>
 <li>content (com.turnguard.rdf.com.turnguard.libtracker.sparql.Libtracker):
 <ul>
 <li>Native library instance</li>
