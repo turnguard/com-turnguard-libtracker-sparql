@@ -248,7 +248,7 @@ public class Libtracker {
          * Wrapper for library method tracker_sparql_connection_query
          * @param query a SPARQL 1.1 SelectQueryString
          * @return Libtracker.TrackerSparqlCursor
-         * @throws com.turnguard.rdf.com.turnguard.libtracker.sparql.Libtracker.TrackerException
+         * @throws com.turnguard.libtracker.sparql.Libtracker.TrackerException
          */
         public Libtracker.TrackerSparqlCursor query(String query) throws TrackerException{
             PointerByReference error = new PointerByReference(null);
@@ -261,7 +261,7 @@ public class Libtracker {
         /**
          * Wrapper for library method tracker_sparql_connection_update
          * @param query a SPARQL 1.1 UpdateQueryString
-         * @throws com.turnguard.rdf.com.turnguard.libtracker.sparql.Libtracker.TrackerException 
+         * @throws com.turnguard.libtracker.sparql.Libtracker.TrackerException 
          */
         public void update(String query) throws TrackerException {            
             PointerByReference error = new PointerByReference(null);
@@ -273,7 +273,7 @@ public class Libtracker {
         /**
          * Wrapper for library method tracker_sparql_connection_statistics
          * @return Libtracker.TrackerSparqlCursor
-         * @throws com.turnguard.rdf.com.turnguard.libtracker.sparql.Libtracker.TrackerException 
+         * @throws com.turnguard.libtracker.sparql.Libtracker.TrackerException 
          */
         public Libtracker.TrackerSparqlCursor getStatistics() throws TrackerException{
             PointerByReference error = new PointerByReference(null);
@@ -308,7 +308,7 @@ public class Libtracker {
         /**
          * Wrapper for library method tracker_sparql_cursor_next
          * @return boolean 
-         * @throws com.turnguard.rdf.com.turnguard.libtracker.sparql.Libtracker.TrackerException 
+         * @throws com.turnguard.libtracker.sparql.Libtracker.TrackerException 
          */
         public boolean next() throws TrackerException{
             PointerByReference error = new PointerByReference(null);
@@ -515,7 +515,7 @@ public class Libtracker {
     /**
      * Wrapper for library method tracker_sparql_connection_get
      * @return Libtracker.TrackerSparqlConnection
-     * @throws com.turnguard.rdf.com.turnguard.libtracker.sparql.Libtracker.TrackerException 
+     * @throws com.turnguard.libtracker.sparql.Libtracker.TrackerException 
      */
     public static Libtracker.TrackerSparqlConnection getTrackerSparqlConnection() throws TrackerException{
         PointerByReference error = new PointerByReference(null);
