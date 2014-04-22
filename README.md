@@ -9,6 +9,11 @@ com-turnguard-libtracker-sparql
 <a href="https://developer.gnome.org/libtracker-sparql/stable/" target="_blank">libtracker-sparql</a>.</li>
 </ul>
 </li>
+<li>javadocs:
+<ul>
+<li><a href="http://turnguard.github.io/com-turnguard-libtracker-sparql/apidocs/" target="_blank">http://turnguard.github.io/com-turnguard-libtracker-sparql/apidocs/</a></li>
+</ul>
+</li>
 <li>requirements:
 <ul>
 <li>libtracker-sparql-1.0</li>
