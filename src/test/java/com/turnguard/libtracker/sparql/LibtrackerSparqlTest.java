@@ -1,5 +1,6 @@
-package com.turnguard.rdf.com.turnguard.libtracker.sparql;
+package com.turnguard.libtracker.sparql;
 
+import com.turnguard.libtracker.sparql.Libtracker;
 import java.util.UUID;
 import junit.framework.TestCase;
 import org.junit.After;

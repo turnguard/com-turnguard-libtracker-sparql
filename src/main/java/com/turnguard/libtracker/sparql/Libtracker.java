@@ -1,4 +1,4 @@
-package com.turnguard.rdf.com.turnguard.libtracker.sparql;
+package com.turnguard.libtracker.sparql;
 
 import com.sun.jna.DefaultTypeMapper;
 import com.sun.jna.FromNativeContext;

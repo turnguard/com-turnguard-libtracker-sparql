@@ -8,7 +8,7 @@
     <packaging>jar</packaging>
 
     <name>com-turnguard-libtracker-sparql</name>
-    <description>Java bindings for libtracker-sparql</description>
+    <description>Java bindings for GNOME Tracker libtracker-sparql</description>
     
     <developers>
         <developer>
