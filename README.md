@@ -14,7 +14,7 @@ com-turnguard-libtracker-sparql
 <li>libtracker-sparql-1.0</li>
 </ul>
 </li>
-<li>content (com.turnguard.rdf.com.turnguard.libtracker.sparql.Libtracker):
+<li>content (com.turnguard.libtracker.sparql.Libtracker):
 <ul>
 <li>Native library instance</li>
 <li>JNA Utilities</li>
